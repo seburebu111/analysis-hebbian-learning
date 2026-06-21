@@ -2,7 +2,7 @@
 
 ## Abstract
 
-This repository contains the official implementation and experiments for the accompanying research [paper](paper/final_paper.pdf), evaluating the efficacy, biological plausibility, and computational efficiency of Hebbian-based learning paradigms compared to standard error backpropagation.
+This repository contains the official implementation and experiments for the accompanying research [paper](research_paper.pdf), evaluating the efficacy, biological plausibility, and computational efficiency of Hebbian-based learning paradigms compared to standard error backpropagation.
 
 Historically, artificial neural networks have relied on the backpropagation of error (BP) algorithm. While mathematically robust, BP is often critiqued for its lack of biological plausibility—specifically, the requirement of symmetric weight transport and non-local error signals. This work investigates two alternative, biologically motivated learning rules: **PEPITA** (a global-error modulated random projection rule) and **SoftHebb** (a purely local unsupervised learning rule coupled with a supervised readout). Through rigorous evaluation on both synthetic datasets and the MNIST benchmark, this repository provides a comparative analysis of these algorithms in terms of convergence, accuracy, and representation learning.
 
@@ -73,4 +73,4 @@ The Jupyter notebooks provide interactive environments to explore the metrics an
 - Navigate to the `experiments/` directory and open the desired `.ipynb` file.
 
 ## References
-*   Contributions and methodology details are outlined in the accompanying paper, found here: [paper](paper/final_paper.pdf)
+*   Contributions and methodology details are outlined in the accompanying paper, found here: [paper](research_paper.pdf)
