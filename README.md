@@ -1,5 +1,7 @@
 # Comparative Analysis of Internal Representations in Hebbian Learning Algorithms
 
+> **Note:** This repository is part of the 2026 Research Project of the Computer Science and Engineering department at [TU Delft](https://github.com/TU-Delft-CSE).
+
 ## Abstract
 
 This repository contains the official implementation and experiments for the accompanying research [paper](research_paper.pdf), evaluating the efficacy, biological plausibility, and computational efficiency of Hebbian-based learning paradigms compared to standard error backpropagation.
